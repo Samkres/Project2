@@ -1,0 +1,25 @@
+{
+    "order_id": "12345",
+    "customer": {
+        "name": "John Doe",
+        "address": "123 Main St",
+        "city": "Anytown",
+        "postal_code": "12345",
+        "country": "Netherlands"
+    },
+    "items": [
+        {
+            "product_id": "101",
+            "product_name": "Widget A",
+            "quantity": 2,
+            "unit_price": 50.00
+        },
+        {
+            "product_id": "102",
+            "product_name": "Widget B",
+            "quantity": 1,
+            "unit_price": 75.00
+        }
+    ],
+    "order_date": "2023-10-01"
+}

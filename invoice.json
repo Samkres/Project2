@@ -1,0 +1,30 @@
+{
+    "invoice_id": "INV-12345",
+    "invoice_date": "2025-01-29",
+    "customer": {
+        "name": "John Doe",
+        "address": "123 Main St",
+        "city": "Anytown",
+        "postal_code": "12345",
+        "country": "Netherlands"
+    },
+    "items": [
+        {
+            "product_id": "101",
+            "product_name": "Widget A",
+            "quantity": 2,
+            "unit_price": 50.0
+        },
+        {
+            "product_id": "102",
+            "product_name": "Widget B",
+            "quantity": 1,
+            "unit_price": 75.0
+        }
+    ],
+    "subtotal": 175.0,
+    "vat_rate": 0.21,
+    "vat_amount": 36.75,
+    "total_amount": 211.75,
+    "payment_due_date": "2025-02-28"
+}
